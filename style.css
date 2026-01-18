@@ -1,0 +1,84 @@
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+*{
+   max-width: 1600px;
+   margin: 0;
+   padding: 0; 
+}
+/* shared-style */
+:root{
+    --primary color: #412567;
+    --secendary color: #1A0B2E;
+    --thard color: #230E3D;
+}
+
+
+/* main-style */
+
+/* header-style */
+.header{
+    background-color: #412567;
+}
+.nav-contener{
+    display: flex;
+    margin: 0 200px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.nav-logo{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+.wave{
+    background:linear-gradient(45deg,#F7E93F, #FB09B4,#9100F8);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-item{
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+    cursor: pointer;
+    color: white;
+}
+.btn{
+    background: linear-gradient(20deg,#F7E93F,#FB09B4,#9100F8);
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn:hover{
+ color: black;
+}
+
+/* hero-style */
+
+
+/* phone-leout */
+@media screen and (max-width:576px){
+    
+    .nav-contener{
+    margin:0px 20px ;
+    justify-content: center;
+}
+.nav-logo{
+    margin-left: 20px;
+    }
+.wave,.nav-item,.btn{
+    display: none;
+}
+
+
+}
