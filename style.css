@@ -309,6 +309,33 @@
     border-radius: 50%;
     padding: 5px;
 }
+/* footer */
+.footer-content{
+    background-image: url(./assets/footer-bg.png);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 50px;
+}
+#footer-logo{
+    font-size: 4rem;
+}
+.footer-link{
+    display: flex;
+    margin: 15px ;
+    text-align: center;
+    justify-content: center;
+}
+.footer-p{
+    margin-left: 10px;
+    margin-right: 20px;
+    color: white;
+}
+.copy-right{
+    color: white;
+    font-size: .7;
+    font-weight: 200;
+}
 
 /* phone-leout */
 @media screen and (max-width:576px){
