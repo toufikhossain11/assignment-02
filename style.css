@@ -53,7 +53,7 @@
     transition: .3s;
 }
 .btn:hover{
- color: black;
+ color: rgb(79, 73, 73);
 }
 .nav-img{
     display: none;
@@ -78,10 +78,22 @@
     position: absolute;
     left: 115px;
     top: -250px;
-
 }
 .back-image{
     margin-top: 100px;
+}
+.badge {
+  position: absolute;
+  top: -320px;
+  right: 50px;
+  background-color: #00f38c;
+  color: black;
+  border: 0;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 243, 140, 0.5);
 }
 .hero-tital{
     font-size: 3.75rem;
@@ -140,7 +152,7 @@
 .about-pod{
     background-color: #1A0B2E;
     text-align: center;
-    padding: 50px 200px 120px;
+    padding: 0px 200px 100px;
 }
 .about-tital{
     color: white;
@@ -185,7 +197,7 @@
 .chosse-card {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 100px 200px;
+  padding: 70px 200px;
   background-color: #230E3D;
 }
 .choose-box-tital{
@@ -246,7 +258,7 @@
 
 /* futured-box */
 .futured-content{
-  max-width: 1600px;
+  /* max-width: 1600px; */
   padding: 80px 200px;
   justify-content: center;
   align-items: center;
@@ -262,7 +274,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    max-width: 1600px;
 }
 
 .futured-box-1{
@@ -383,7 +394,7 @@
 }
     .nav-item{
     display: none;
-    }
+}
 .btn{
     display: none;
 }
